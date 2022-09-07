@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgb(245, 245, 245);
+}
+@media (max-width: 800px) {
+	body{
+		margin: 200px 0px;
+
+	}
+}
+.container {
+	width: 1440px;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 5px 20px hsla(234, 12%, 34%, 0.164);
+	border-radius: 10px;
+	scale: 0.65;
+}
+
+.title {
+	font-family: 'poppins', sans-serif;
+	font-size: 2.5rem;
+	color: hsl(234, 12%, 34%);
+	text-align: center;
+	font-weight: 200;
+	margin-top: 70px;
+}
+@media (max-width: 800px) {
+	.title {
+		font-size: 2rem;
+	}
+}
+span {
+	font-weight: 600;
+}
+.body-copy {
+	margin-top: 32px;
+	font-family: 'poppins', sans-serif;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 32.25px;
+	color: hsl(229, 6%, 66%);
+}
+@media (max-width: 800px) {
+	.body-copy {
+		padding: 0px 40px;
+
+	}
+}
+.card {
+	width: 400px;
+	height: 250px;
+	background: white;
+	margin-top: 40px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card-title {
+	font-family: 'poppins', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+	margin-left: 24px;
+	margin-top: 32px;
+}
+.card-subtitle {
+	margin-top: 10px;
+	margin-left: 24px;
+	font-family: 'poppins', sans-serif;
+	font-size: 1.1rem;
+	line-height: 32.25px;
+	color: hsl(229, 6%, 66%);
+}
+.team-builder {
+	align-self: flex-end;
+	margin-top: 24px;
+	margin-right: 24px;
+}
+.container-row {
+	display: block;
+	padding: 30px;
+}
+@media (min-width: 800px) {
+	.container-row {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+		flex-direction: row;
+	}
+}
+.container-column {
+	display: flex;
+	flex-direction: column;
+}
+.card1 {
+	width: 400px;
+	height: 250px;
+	background: white;
+	margin-top: 40px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	border-top: 5px solid hsl(180, 62%, 55%);
+	box-shadow: 0px 5px 20px hsla(234, 12%, 34%, 0.164);
+}
+.card2 {
+	width: 400px;
+	height: 250px;
+	background: white;
+	margin-top: 40px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	border-top: 5px solid hsl(0, 78%, 62%);
+	box-shadow: 0px 5px 20px hsla(234, 12%, 34%, 0.164);
+}
+.card3 {
+	width: 400px;
+	height: 250px;
+	background: white;
+	margin-top: 40px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	border-top: 5px solid hsl(34, 97%, 64%);
+	box-shadow: 0px 5px 20px hsla(234, 12%, 34%, 0.164);
+}
+.card4 {
+	width: 400px;
+	height: 250px;
+	background: white;
+	margin-top: 40px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	border-top: 5px solid hsl(212, 86%, 64%);
+	box-shadow: 0px 5px 20px hsla(234, 12%, 34%, 0.164);
+}
